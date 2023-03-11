@@ -3,8 +3,12 @@
     margin: 0;
 }
 @font-face {
-    font-family: "Kumbh";
-    src: url();
+    font-family: "Kumbh-ligth";
+    src: url("KumbhSans/static/KumbhSans-Medium.ttf");
+}
+@font-face {
+    font-family: "Kumbh-bold";
+    src: url("KumbhSans/static/KumbhSans-Bold.ttf");
 }
 body{
     background-image: url(images/bg-pattern-bottom.svg);
@@ -34,20 +38,50 @@ main{
     border-radius: 50%;
     margin: -3rem 7rem 0 6.5rem;
 }
-article{
-    padding: 1rem;
+article {
+    padding: 1rem 2rem;
 }
 ul{
     list-style-type: none;
 }
-.nameage{
+.nameage {
     display: flex;
     gap: 0.3rem;
+    align-items: center;
+    justify-content: center;
 }
-#name{
-    color: black;
-    font-weight: bold;
+.numbers-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    text-align: center;
 }
-#age{
-    color: rgba(0, 0, 0, 0.47);
+.center{
+    text-align: center;
+}
+#line{
+    width: 16rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.133);;
+    margin: 1.5rem 0 1.5rem 0;
+}
+.light-font{
+    font-family: "Kumbh-ligth";
+}
+.bold-font{
+    font-family: "Kumbh-bold";
+}
+.ligth-color{
+    color: rgba(0, 0, 0, 0.65);
+}
+.p-numbers-box{
+    font-size: 0.8rem;
+    
+}
+.attribution { 
+    font-size: 11px; text-align: center;
+    margin-top: 1rem; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
 }

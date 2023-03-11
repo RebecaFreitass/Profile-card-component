@@ -8,12 +8,6 @@
   <link rel="stylesheet" href="style.css">
   
   <title>Frontend Mentor | Profile card component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
   <main> 
@@ -22,29 +16,34 @@
     <img src="images/image-victor.jpg" alt="" id="img-user">
     <article>
       <div class="info-user">
-        <ul class="nameage">
-          <li id="name">Victor Crest</li>
-          <li id="age">26</li>
-        </ul>
-        <p>London</p>
+        <div class="nameage">
+          <h3 class="bold-font">Victor Crest</h3>
+          <p class="light-font ligth-color">26</p>
+        </div>
+        <div>
+          <p class="light-font center ligth-color">London</p>
+        </div>  
       </div>
+      <div id="line"></div>
       <div class="numbers-box">
-        <ul class="numbers-list">
-          <li class="number">80K</li>
-          <li class="number">803K</li>
-          <li class="number">1.4K</li>
-        </ul>
-        <ul class="info-numbers">
-          <li class="letters-numbers">Followers</li>
-          <li class="letters-numbers">Likes</li>
-          <li class="letters-numbers">Photos</li>
-        </ul>
+            <div class="followers">
+              <h3 class="bold-font">80K</h3>
+              <p class="light-font p-numbers-box ligth-color">Followers</p>
+            </div>
+            <div class="likes">
+              <h3 class="bold-font">803K</h3>
+              <p class="light-font p-numbers-box ligth-color">Likes</p>
+            </div>
+            <div class="photos">
+              <h3 class="bold-font">1.4K</h3>
+              <p class="light-font p-numbers-box ligth-color">Photos</p>
+          </div>
       </div>
     </article>
   </main>
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="https://github.com/RebecaFreitass">Rebeca Freitas</a>.
   </div>
 </body>
 </html>
